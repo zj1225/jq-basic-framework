@@ -1,0 +1,6 @@
+
+.d-pageRender .d-table .a-manager-dele{ height: 25px; line-height: 25px; }
+.d-pageRender .d-table .a-manager-set{ display:inline-block; margin:0; filter:Alpha(opacity=0); opacity: 0; font-size:14px; background:#108ad5; color: #fff; font-weight: bold; height: 25px; line-height: 25px; padding:0 12px; border-radius: 5px; overflow: hidden;  transition: all 0.3s ease; text-decoration: none;}
+.d-pageRender .d-table .a-manager-set:hover {color: #fff; background: #108ad5;}
+.d-pageRender .d-table tr{}
+.d-pageRender .d-table tr:hover .a-manager-set{ filter:Alpha(opacity=100); opacity: 1; }

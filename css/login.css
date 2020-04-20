@@ -1,0 +1,16 @@
+html{ height:100%; }
+body{ background: url(../images/loginbg.png) no-repeat center; background-size:100% 100%;  min-height: 100%; overflow: hidden; }
+.d-bodybg{ position: absolute; z-index: 1; background:url(../images/loginBoxBg4.png) no-repeat; width: 1359px; height: 441px; right: -50px; bottom:-50px; filter:Alpha(opacity=50); opacity:0.5;  }
+
+.d-loginBox{ position: relative; z-index: 2; width: 1045px; margin:0 auto; transition: all 0.3s ease; }
+.d-loginBox .img-bg{  position: absolute; left: 45px; top:0; z-index: 3; display: block; }
+.d-loginBox .d-login{ position: relative; z-index: 2; background: #fff3ee; border-radius: 10px; overflow: hidden; height: 450px; margin-top:18px; padding-left:615px;  padding-top:80px; }
+.d-loginBox .d-login h1{ background: url(../images/loginBoxTitle.png) no-repeat; width: 378px; height: 104px; font-size:0; line-height: 0; overflow: hidden; margin-bottom:20px;}
+.d-loginBox .d-login div{position: relative; padding:10px 0;}
+.d-loginBox .d-login label{ display: block; font-size:14px; color: #b2b2b2; height: 30px; line-height: 30px; }
+.d-loginBox .d-login input{ display: block; width: 250px; padding:0; border:0; background: 0; border-bottom:solid #b2b2b2 1px; height: 30px; line-height: 30px; font-size:16px; color: #333; }
+.d-loginBox .d-login .a-login{ display: block; width: 250px; height: 40px; background: url(../images/loginbtnbg.png) repeat-y; border-radius: 5px;  overflow: hidden; line-height: 40px; color: #fff; font-size:16px; text-align: center; margin-top:30px;}
+.d-loginBox .d-login .a-login:hover{ box-shadow: 0px 0px 10px rgba(251,103,44,0.5); color: #fff; }
+.d-loginBox i.i-bg{ display: block; position: absolute; z-index: 1; background: url(../images/loginBoxBg2.png) no-repeat; width: 544px; height: 694px;  top:-65px; left: -110px;filter:Alpha(opacity=70); opacity:0.7;   }
+.d-loginBox i.i-bg2{ display: block; position: absolute; z-index: 1; background: url(../images/loginBoxBg3.png) no-repeat; width: 244px; height: 244px; right:-230px; top:-230px; filter:Alpha(opacity=20); opacity:0.2;   }
+.d-loginBox i.i-bg3{ display: block; position: absolute; z-index: 1; background: url(../images/loginBoxBg.png) no-repeat; width: 151px; height: 258px; right:-95px; top:170px; filter:Alpha(opacity=80); opacity:0.8;   }

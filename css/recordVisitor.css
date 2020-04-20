@@ -1,0 +1,43 @@
+.d-searchBy{ position:relative; padding:15px; }
+.d-searchBy a[opar="btn"]{ float: left; font-size:16px; font-weight: bold; color: #fff; background: #fb672c; height: 40px; line-height: 40px; padding:0 35px; border-radius: 5px; }
+.d-searchBy a[opar="btn"]:hover{ color: #fff; background: #fb5919; }
+.d-searchBy a[opar="btn"]:active{ background: #ee5518; }
+.d-searchBy .a-out{ margin-left:15px; }
+.d-searchBy .d-search{ float: left; vertical-align: middle; position: relative; overflow: hidden; width: 300px; height: 40px; margin-left:15px;display:inline;  }
+.d-searchBy .d-search input{ float: left; width: 219px; height: 38px; border:solid #b2b2b2 1px; border-radius: 3px 0 0 3px; background: #fff;padding:0 10px; border-right: 0; font-size: 14px; }
+.d-searchBy .d-search input::placeholder { color: #c2c2c2; }
+.d-searchBy .d-search a.a-search{ display: block; overflow: hidden; height: 40px; background: #fb672c url(../images/fdj-ico.png) no-repeat center; border-radius: 0 3px 3px 0; font-size:0; line-height: 0;}
+.d-searchBy .d-search a.a-search:hover{ background-color: #fb5919; }
+.d-searchBy .d-search a.a-search:active{ background-color: #ee5518; }
+.d-searchBy .d-date{ text-align: right; overflow: hidden; vertical-align: middle; padding-right:10px;}
+.d-searchBy .d-date em{ display: inline-block; vertical-align: middle; font-size:16px; height:40px; line-height: 40px; }
+.d-searchBy .d-date input{ display: inline-block; vertical-align: middle;height:40px; line-height: 40px; width:90px; font-size:16px;  border:0; caret-color: #fff;}
+.d-searchBy .d-date input:nth-of-type(1){ width:120px; background: url(../images/sj-ico.png) no-repeat right center; }
+
+.d-listBox{ position:relative; margin-top:15px; }
+.d-listBox .d-list-header{ position:relative; transition: all 0.3s ease;}
+.d-listBox .d-lh-item{  float:left; width:8%; text-align: center;   }
+.d-listBox .d-lh-item strong{ display: block; font-size:16px; font-weight: bold; line-height: 60px; }
+.d-listBox .d-lh-item select{ padding:20px 50px 20px 10px ; font-size:16px; font-weight: bold; }
+.d-listBox .d-list-content{ position:relative; overflow: hidden; overflow-y:auto;transition: all 0.3s ease; }
+.d-listBox .d-item{   padding:5px 0; cursor: pointer;}
+.d-listBox .d-item span{ float: left; width: 8%; text-align: center; font-size: 14px;  word-break: break-all; word-wrap:break-word; line-height: 60px; height: 60px; overflow: hidden; text-overflow:ellipsis; white-space: nowrap;}
+.d-listBox .d-item span em{ display: block; font-size:14px;  }
+.d-listBox .d-item span .a-leave{ display: inline-block; font-size:14px; color: #108ad5; text-decoration: underline; }
+.d-listBox .d-item span .a-leave:hover{ font-weight: bold; }
+.d-listBox .d-item span:nth-of-type(5){ line-height: 20px; height: 40px; padding:10px 0;}
+.d-listBox .d-item span:nth-of-type(6){ line-height: 20px; height: 40px; padding:10px 0;}
+.d-listBox .d-item:nth-child(odd){ background: #f3f9fd; }
+
+.ui-dialog-addVisitor{ position: relative; padding:25px 25px 0;  }
+.ui-dialog-addVisitor div{ float: left; padding:10px 0; }
+.ui-dialog-addVisitor label{ display: inline-block; vertical-align: middle; width: 90px; text-align: right; font-size: 16px; padding-right:10px; line-height: 40px; }
+.ui-dialog-addVisitor i{ display: inline-block; vertical-align: middle; font-size:16px; font-weight: bold; padding-left:5px; }
+.ui-dialog-addVisitor label i{ color: #fb672c; display: inline-block; vertical-align: middle; padding-right:5px; }
+.ui-dialog-addVisitor input[type="text"]{ display: inline-block; vertical-align: middle; width: 480px; padding:0 10px; height: 40px; line-height: 40px; border:solid #b2b2b2 1px; border-radius: 3px; overflow: hidden; font-size:14px;  }
+.ui-dialog-addVisitor input[type="text"].ipt-name{ width: 170px; }
+.ui-dialog-addVisitor input[type="text"].ipt-wd{ width: 150px; }
+.ui-dialog-addVisitor input[type="text"].ipt-fromtime , .ui-dialog-addVisitor input.ipt-outtime{ background: url(../images/sj-ico.png) no-repeat 160px center;  width: 170px; }
+.ui-dialog-addVisitor .a-chb{  display: inline-block; background: url(../images/ico-chb.png) no-repeat left center; font-size:14px; line-height: 40px; padding-left:20px; margin:0 10px; }
+.ui-dialog-addVisitor .a-chb-hover{ background-image: url(../images/ico-chb-checked.png); }
+.ui-dialog-addVisitor .a-chb:hover{ color: #333; }
